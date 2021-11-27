@@ -71,4 +71,4 @@ class Follow(models.Model):
         )
 
         def __str__(self):
-            return self.user.username, self.following.username
+            return self.following.username
